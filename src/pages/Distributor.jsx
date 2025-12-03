@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
 import { useTranslation } from "react-i18next";
 import MapComponent from "../components/MapComponent";
 
