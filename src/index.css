@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ===== THEME COLORS ===== */
+:root {
+  --bg-main: #ffffff;
+  --primary: #2f8f3a;
+  --primary-dark: #256a2b;
+  --secondary: #f0fdf4;
+  --background: #ffffff;
+  --card: #ffffff;
+  --modal: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-muted: #555;
+  --border: #dcdcdc;
+}
+
+/* ===== DARK MODE OVERRIDE ===== */
+.dark {
+  --bg-main: #0b0d0e;
+  --primary: #4ade80;
+  --primary-dark: #22c55e;
+  --secondary: #0f1410;
+  --background: #0c0c0c;
+  --card: #111111;
+  --modal: #1a1a1a;
+  --text-primary: #f5f5f5;
+  --text-muted: #cccccc;
+  --border: #333333;
+}
+
+.bg-dark {
+  background-color: var(--bg-main);
+}
+
+/* ===== GLOBAL THEME USAGE ===== */
+body {
+  /* background: var(--background);
+  color: var(--text-primary); */
+  background-color: var(--bg-main);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .border-primary {
+    border-color: var(--primary);
+  }
+}
+
+/* Tambahan recommended */
+.card {
+  background-color: var(--secondary);
+  border: 1px solid var(--primary);
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-dark);
+}
+
+.modal-bg {
+  background-color: var(--secondary);
+  color: var(--text-primary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.dark .card {
+  background-color: #111;
+  border-color: var(--primary);
+}
+
+.dark .modal-bg {
+  background-color: #1b1b1b;
+}

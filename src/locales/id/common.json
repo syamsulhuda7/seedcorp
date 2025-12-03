@@ -1,0 +1,130 @@
+{
+"nav": { "home": "Beranda", "products": "Produk", "distributor": "Distributor", "rnd": "R&D", "about": "Tentang", "contact": "Kontak" },
+"hero": {
+    "title1": "Benih Unggul untuk Hasil Panen Lebih Baik",
+    "title2": "Produktivitas Maksimal dengan Benih Berkualitas",
+    "title3": "Diformulasikan untuk Tahan Hama dan Cuaca Ekstrem",
+    "title4": "Panen Lebih Cepat, Lebih Seragam, Lebih Melimpah",
+    "title5": "Pilihan Tepat bagi Petani yang Mengutamakan Hasil"
+  },
+  "about": {
+    "title": "Tentang SeedCo",
+    "description": "SeedCo berkomitmen menghasilkan benih pertanian berkualitas tinggi melalui riset ketat, budidaya profesional, dan inovasi pertanian berkelanjutan. Selama bertahun-tahun, kami bekerja bersama petani di seluruh Indonesia untuk meningkatkan hasil panen, ketahanan hama, dan keamanan pangan jangka panjang.",
+
+    "visionTitle": "Visi Kami",
+    "visionText": "Menjadi penyedia benih terkemuka di Asia Tenggara, membantu petani mencapai panen yang berkelanjutan, efisien, dan produktif.",
+
+    "missionTitle": "Misi Kami",
+    "missionList": [
+      "Berinovasi melalui riset pertanian tingkat lanjut.",
+      "Menyediakan benih berdaya hasil tinggi dan tahan penyakit.",
+      "Mendukung komunitas petani melalui edukasi dan pelatihan.",
+      "Mendorong pertanian berkelanjutan untuk generasi mendatang."
+    ],
+
+    "ourJourneyTitle": "Perjalanan Kami",
+    "timeline": [
+      { "year": "2012", "text": "SeedCo didirikan dengan misi meningkatkan standar pertanian di Indonesia." },
+      { "year": "2015", "text": "Membangun divisi R&D yang berfokus pada inovasi benih hibrida." },
+      { "year": "2019", "text": "Memperluas distribusi ke 18 provinsi, mendukung ribuan petani." },
+      { "year": "2023", "text": "Meluncurkan seri benih tahan hama dengan efisiensi hingga 30% lebih tinggi." }
+    ],
+
+    "rndTitle": "Riset & Pengembangan",
+    "rndText": "Tim R&D kami mengembangkan benih berperforma tinggi yang diuji pada berbagai jenis iklim dan tanah. Dengan peningkatan berkelanjutan, kami menghadirkan benih dengan pertumbuhan unggul, ketahanan tinggi, dan hasil konsisten.",
+    "learnMore": "Pelajari Lebih Lanjut",
+
+    "ctaTitle": "Tumbuh Bersama Para Petani",
+    "ctaButton": "Hubungi Kami"
+  },
+  "rnd": {
+    "hero": {
+      "title": "Riset & Pengembangan",
+      "subtitle": "Kami mengembangkan varietas benih unggul melalui ilmu modern dan uji coba lapangan."
+    },
+    "cta": {
+      "viewLabs": "Lihat Laboratorium",
+      "workflow": "Alur Kerja R&D"
+    },
+    "labs": {
+      "title": "Laboratorium & Fasilitas"
+    },
+    "workflowTitle": "Alur Kerja Riset",
+    "workflow": [
+      { "step": "01", "title": "Koleksi Germplasm", "desc": "Mengumpulkan material induk unggul dari sumber terpercaya." },
+      { "step": "02", "title": "Hibridisasi", "desc": "Menyeberangkan galur terpilih untuk menggabungkan sifat terbaik." },
+      { "step": "03", "title": "Uji Lapang", "desc": "Uji di berbagai lokasi untuk memvalidasi performa." },
+      { "step": "04", "title": "Kontrol Mutu", "desc": "Pengujian benih, sertifikasi, dan penskalaan produksi." }
+    ],
+    "expertsTitle": "Tim R&D",
+    "experts": [
+      { "name": "Dr. Ani Saputra", "role": "Kepala Genetika", "bio": "Ahli pemuliaan tanaman dan genetika molekuler." },
+      { "name": "Ir. Budi Santoso", "role": "Kepala Uji Lapang", "bio": "Memimpin uji lapang multi-lokasi dan protokol agronomi." },
+      { "name": "Dr. Siti Rahma", "role": "Kontrol Mutu", "bio": "Spesialis kontrol mutu dan sertifikasi benih." }
+    ],
+    "trialsTitle": "Uji Lapang",
+    "ctaTitle": "Bermitra dengan tim R&D kami",
+    "ctaText": "Tertarik dengan uji coba, lisensi, atau kolaborasi? Hubungi tim R&D kami.",
+    "ctaContact": "Hubungi R&D",
+    "ctaReport": "Unduh Laporan"
+  },
+  "distributor": {
+    "hero": {
+      "title": "Distributor Resmi",
+      "subtitle": "Kami bermitra dengan distributor terpercaya di seluruh Indonesia untuk memastikan benih berkualitas sampai ke petani.",
+      "cta": "Lihat Peta"
+    },
+    "section": {
+      "title": "Jaringan Distributor"
+    },
+    "list": [
+      {
+        "name": "PT Agri Nusantara",
+        "region": "Jawa Timur"
+      },
+      {
+        "name": "CV Tani Sejahtera",
+        "region": "Sulawesi Selatan"
+      },
+      {
+        "name": "UD Makmur Abadi",
+        "region": "Kalimantan Barat"
+      }
+    ],
+    "map": {
+      "title": "Lokasi Distributor",
+      "desc": "Berikut adalah peta yang menunjukkan lokasi mitra distributor resmi kami."
+    },
+    "join": {
+      "title": "Ingin Menjadi Distributor Resmi?",
+      "desc": "Bergabunglah dengan jaringan pemasaran benih berkualitas tinggi.",
+      "button": "Hubungi Kami"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Hubungi Kami",
+      "subtitle": "Kami siap membantu Anda dengan informasi produk, kerja sama, atau pertanyaan lainnya."
+    },
+    "info": {
+      "phoneTitle": "Telepon",
+      "phone": "0812-xxxx-xxxx",
+      "emailTitle": "Email",
+      "email": "info@seedco.id",
+      "addressTitle": "Alamat",
+      "address": "Jl. Pertanian No. 12, Jakarta Selatan"
+    },
+    "form": {
+      "title": "Kirim Pesan",
+      "subtitle": "Tinggalkan pesan Anda dan tim kami akan menghubungi secepatnya.",
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "message": "Pesan Anda",
+      "submit": "Kirim"
+    },
+    "map": {
+      "title": "Lokasi Kantor",
+      "desc": "Temukan lokasi kantor pusat SeedCo pada peta berikut."
+    }
+  }
+}

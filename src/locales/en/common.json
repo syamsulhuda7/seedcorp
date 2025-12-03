@@ -1,0 +1,139 @@
+{
+"nav": {
+  "home": "Home",
+  "products": "Products",
+  "about": "About Us",
+  "rnd": "R&D",
+  "distributor": "Distributor",
+  "contact": "Contact"
+}
+,
+"hero": {
+    "title1": "Superior Seeds for Better Harvest Results",
+    "title2": "Maximum Productivity with Premium-Quality Seeds",
+    "title3": "Engineered for Pest Resistance and Extreme Weather",
+    "title4": "Faster, More Uniform, and More Abundant Harvests",
+    "title5": "The Right Choice for Farmers Who Prioritize Yield"
+  },
+  
+  "about": {
+    "title": "About SeedCo",
+    "description": "SeedCo is committed to producing high-quality agricultural seeds through rigorous research, professional cultivation, and sustainable innovation. For years, our company has partnered with farmers across Indonesia to improve yields, resist pests, and ensure long-term food security.",
+    
+    "visionTitle": "Our Vision",
+    "visionText": "To become the leading seed provider in Southeast Asia, helping farmers achieve sustainable, efficient, and productive harvests.",
+
+    "missionTitle": "Our Mission",
+    "missionList": [
+      "Innovate through advanced agricultural research.",
+      "Provide high-yield and disease-resistant seed varieties.",
+      "Support farming communities with education and training.",
+      "Promote sustainable farming for future generations."
+    ],
+
+    "ourJourneyTitle": "Our Journey",
+    "timeline": [
+      { "year": "2012", "text": "SeedCo was founded with a mission to elevate agricultural standards in Indonesia." },
+      { "year": "2015", "text": "Established our R&D division focusing on hybrid seed innovation." },
+      { "year": "2019", "text": "Expanded distribution across 18 provinces, supporting thousands of farmers." },
+      { "year": "2023", "text": "Introduced pest-resistant seed series with up to 30% higher efficiency." }
+    ],
+
+    "rndTitle": "Research & Development",
+    "rndText": "Our R&D team develops high-performance seeds tested across various climates and soils. With continuous improvements, we deliver superior growth, resilience, and yield consistency.",
+    "learnMore": "Learn More",
+
+    "ctaTitle": "Growing Together With Farmers",
+    "ctaButton": "Contact Us"
+  },
+  "rnd": {
+    "hero": {
+      "title": "Research & Development",
+      "subtitle": "We develop superior seed varieties by combining modern science with real-world trials."
+    },
+    "cta": {
+      "viewLabs": "View Labs",
+      "workflow": "Our Workflow"
+    },
+    "labs": {
+      "title": "Laboratory & Facilities"
+    },
+    "workflowTitle": "Research Workflow",
+    "workflow": [
+      { "step": "01", "title": "Germplasm Collection", "desc": "Collecting superior parent material from trusted sources." },
+      { "step": "02", "title": "Hybridization", "desc": "Crossing selected lines to combine the best traits." },
+      { "step": "03", "title": "Field Trials", "desc": "Multi-location trials to validate performance." },
+      { "step": "04", "title": "Quality Assurance", "desc": "Seed testing, certification and scaling production." }
+    ],
+    "expertsTitle": "Our Experts",
+    "experts": [
+      { "name": "Dr. Ani Saputra", "role": "Head of Genetics", "bio": "Expert in plant breeding and molecular genetics." },
+      { "name": "Ir. Budi Santoso", "role": "Field Trials Lead", "bio": "Leads multi-site field trials and agronomy protocols." },
+      { "name": "Dr. Siti Rahma", "role": "Quality Assurance", "bio": "Quality control and seed certification specialist." }
+    ],
+    "trialsTitle": "Field Trials",
+    "ctaTitle": "Partner with our R&D team",
+    "ctaText": "Interested in trials, licensing, or collaboration? Reach out to our R&D team.",
+    "ctaContact": "Contact Research",
+    "ctaReport": "Download Report"
+  },
+  "distributor": {
+    "hero": {
+      "title": "Official Distributors",
+      "subtitle": "We partner with trusted distributors across Indonesia to ensure high-quality seeds reach farmers.",
+      "cta": "View Map"
+    },
+    "section": {
+      "title": "Distributor Network"
+    },
+    "list": [
+      {
+        "name": "Agri Nusantara Ltd.",
+        "region": "East Java"
+      },
+      {
+        "name": "Tani Sejahtera Co.",
+        "region": "South Sulawesi"
+      },
+      {
+        "name": "Makmur Abadi Group",
+        "region": "West Kalimantan"
+      }
+    ],
+    "map": {
+      "title": "Partner Locations",
+      "desc": "Below is a map showing the official distributor locations."
+    },
+    "join": {
+      "title": "Want to Become an Official Distributor?",
+      "desc": "Join our high-quality seed distribution network.",
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We are ready to assist with product information, partnerships, or any inquiries."
+    },
+    "info": {
+      "phoneTitle": "Phone",
+      "phone": "0812-xxxx-xxxx",
+      "emailTitle": "Email",
+      "email": "info@seedco.id",
+      "addressTitle": "Address",
+      "address": "Jl. Pertanian No. 12, South Jakarta"
+    },
+    "form": {
+      "title": "Send a Message",
+      "subtitle": "Leave your message and our team will contact you soon.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your Message",
+      "submit": "Submit"
+    },
+    "map": {
+      "title": "Office Location",
+      "desc": "Find the SeedCo headquarters location on the map below."
+    }
+  }
+}
