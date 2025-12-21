@@ -157,7 +157,7 @@ export default function Contact() {
             {t("contact.map.desc")}
           </p>
 
-          <div className="h-[400px] rounded-xl overflow-hidden shadow-lg">
+          <div className="relative z-1 h-[400px] rounded-xl overflow-hidden shadow-lg">
             <MapComponent />
           </div>
         </div>

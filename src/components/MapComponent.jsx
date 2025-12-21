@@ -5,8 +5,16 @@ import L from "leaflet";
 // Fix default icon issue
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-  iconUrl: "/leaflet/marker-icon.png",
+  iconUrl: "/assets/markerseed.svg",
   shadowUrl: "/leaflet/marker-shadow.png",
+});
+
+const icon = new L.Icon({
+  iconUrl: "/assets/markerseed.svg",
+  shadowUrl: "/leaflet/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
 });
 
 export default function MapComponent({ markers }) {
@@ -15,7 +23,7 @@ export default function MapComponent({ markers }) {
       center={[-2.5, 117.5]}
       zoom={5}
       scrollWheelZoom={false}
-      className="w-full h-full"
+      className="w-full h-full z-0"
     >
       <TileLayer
         attribution="&copy; OpenStreetMap contributors"
@@ -23,7 +31,7 @@ export default function MapComponent({ markers }) {
       />
 
       {markers?.map((m, i) => (
-        <Marker key={i} position={m.coords}>
+        <Marker icon={icon} key={i} position={m.coords}>
           <Popup>
             <strong>{m.name}</strong>
             <br />

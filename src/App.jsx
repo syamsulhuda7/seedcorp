@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Distributor from "./pages/Distributor";
 import RnD from "./pages/RnD";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   const [isDark, setIsDark] = useState(() => {
@@ -38,7 +39,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[color:var(--bg)] text-[color:var(--text)]">
       <Navbar isDark={isDark} toggleTheme={() => setIsDark((s) => !s)} />
-
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />

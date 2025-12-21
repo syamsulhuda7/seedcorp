@@ -112,7 +112,7 @@ export default function Distributor() {
             {t("distributor.map.desc")}
           </p>
 
-          <div className="rounded-xl overflow-hidden shadow-lg h-[400px]">
+          <div className="relative z-1 rounded-xl overflow-hidden shadow-lg h-[400px]">
             <MapComponent markers={distributors} />
           </div>
         </div>
